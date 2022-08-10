@@ -161,6 +161,21 @@ Users will see enriched detonation details for known malicious attachments or UR
   - None: Indicates that no DMARC TXT record exists for the sending domain in DNS.
 
 *Composite Authentication*: This is a value used by Microsoft 365 to combine email authentication like SPF, DKIM, and DMARC, to determine if the message is authentic. It uses the *From:* domain of the mail as the basis of evaluation.
+## Actions into Email entity Page
+
+Now you can see Actions in the  Email entity page, so you can act on a single email if its needed. No need to switch of different pages to take email actions   like soft delete, move to junk, deleted folder etc or create  block rules or submit to Microsoft for review. You could trigger all these actions from entity page as well.
+
+You will be able to click on Take actions   from the top right corner of the entity page and this will open the Action wizard for you to select the specific action. 
+![Take action from entity page.](../../media/Take-ActionWizard-Email-entity.png)
+
+We are also bringing TABL block URL and Tenant level block attachment to the respective Email entity URL and Attachments in emial entity tabs. Upon approval, all the TABL block URL and block attachments can be tracked under TABL/URL and TABL/file page. 
+![Take block URL action from entity page.](../../media/Block-URL-Email-entity.png)
+
+
+Please refer  [permission](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/permissions-microsoft-365-security-center?view=o365-worldwide).
+ required to take these actions. 
+ 
+ 
 
 ### Email summary panel
 
